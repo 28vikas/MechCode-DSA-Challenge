@@ -21,7 +21,8 @@ This repo contains:
 ---
 
 ## 📚 Resources I’m Using
-- [Youtube](https://www.youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt)
+- Namaste DSA
+- Youtube
 - ChatGPT for guidance & explanations 😉
 
 ---
