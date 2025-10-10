@@ -102,5 +102,5 @@ function checkEvenOdd(num) {
 
 Example Calls:
 
-checkEvenOdd(10);    // 10 is even.
-checkEvenOdd(7);     // 7 is odd.
+checkEvenOdd(10);    // 10 is Even.
+checkEvenOdd(7);     // 7 is Odd.
