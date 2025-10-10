@@ -6,7 +6,7 @@ function functionName(parameters) {
 }
 
 function greet() {
-  console.log("Hello! Welcome to DSA with JavaScript.");
+  console.log("Hello! Welcome to Dsa with JavaScript.");
 }
 
 greet();
