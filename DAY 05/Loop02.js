@@ -1,67 +1,67 @@
 // write a function that searches for an Element in an array and return the index, if the Element is not present then just return -1
 
 
-// function searchElement (num,x){
+function searchElement (num,x){
 
-//     for(let i = 0; i<num.length; i++){
-//         if(num[i] === x){
-//             return i;
+    for(let i = 0; i<num.length; i++){
+        if(num[i] === x){
+            return i;
             
-//         }
-//     }
-// return -1
+        }
+    }
+return -1
 
-// }
-
-
-
-// let arr = [5,2,64,8,9,3]
-
-
-// let result = searchElement(arr,0)
-
-// console.log(result);
+}
 
 
 
-
-// function negativeNumber(num){
-//     let negNum = []
-// for(let i = 0; i<num.length; i++){
-//     if(num[i]<0){
-//         negNum.push(num[i])
-//     }
-// }   
-
-// return negNum
-// }
+let arrr = [5,2,64,8,9,3]
 
 
-// let arr = [2,3,-8,5,-3]
+let resultt = searchElement(arr,0)
 
-// let result = negativeNumber(arr)
-
-
-// console.log(result);
+console.log(resultt);
 
 
 
-// function negativeNumber(num) {
-//   let count = 0;
-//   for (let i = 0; i < num.length; i++) {
-//     if (num[i] < 0) {
-//       count++
-//     }
-//   }
 
-//   return count;
-// }
+function negativeNumber(num){
+    let negNum = []
+for(let i = 0; i<num.length; i++){
+    if(num[i]<0){
+        negNum.push(num[i])
+    }
+}   
 
-// let arr = [2, 3, -8, 5, -3,-1, -10];
+return negNum
+}
 
-// let result = negativeNumber(arr);
 
-// console.log(result);
+let arr = [2,3,-8,5,-3]
+
+let result = negativeNumber(arr)
+
+
+console.log(result);
+
+
+
+function negativeNumber(num) {
+  let count = 0;
+  for (let i = 0; i < num.length; i++) {
+    if (num[i] < 0) {
+      count++
+    }
+  }
+
+  return count;
+}
+
+let arr1 = [2, 3, -8, 5, -3,-1, -10];
+
+let result1 = negativeNumber(arr);
+
+console.log(result1);
 
 
 
@@ -69,43 +69,43 @@
 
 
 
-// function findLargestNumber(num) {
-//   let largestNum = -infinity;
-//   for (let i = 0; i < num.length; i++) {
-//     if (num[i] > largestNum) {
-//       largestNum = num[i]
-//     }
-//   }
+function findLargestNumber(num) {
+  let largestNum = -infinity;
+  for (let i = 0; i < num.length; i++) {
+    if (num[i] > largestNum) {
+      largestNum = num[i]
+    }
+  }
 
-//   return largestNum;
+  return largestNum;
 
-// }
+}
 
-// let arr = [2,5,69,266,256,123,86];
+let arr2 = [2,5,69,266,256,123,86];
 
-// let result = findLargestNumber(arr);
+let result2 = findLargestNumber(arr);
 
-// console.log(result);
+console.log(result2);
 
 // write a function that returns the smallest number in array
 
 
-// function findSmallestNumber(num) {
-//   let smallestNum = Infinity;
-//   for (let i = 0; i < num.length; i++) {
-//     if (num[i] < smallestNum) {
-//       smallestNum = num[i];
-//     }
-//   }
+function findSmallestNumber(num) {
+  let smallestNum = Infinity;
+  for (let i = 0; i < num.length; i++) {
+    if (num[i] < smallestNum) {
+      smallestNum = num[i];
+    }
+  }
 
-//   return smallestNum;
-// }
+  return smallestNum;
+}
 
-// let arr = [2, 5, 69, 266, -23, 123, 86];
+let arr3 = [2, 5, 69, 266, -23, 123, 86];
 
-// let result = findSmallestNumber(arr);
+let result3 = findSmallestNumber(arr);
 
-// console.log(result);
+console.log(result3);
 
 
 
