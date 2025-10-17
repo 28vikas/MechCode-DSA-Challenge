@@ -25,10 +25,6 @@ console.log(result);
 /////////////////////////////////////
 
 
-
-
-
-
 // for corner case like zero and negative number
 
 
